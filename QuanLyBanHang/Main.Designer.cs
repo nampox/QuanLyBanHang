@@ -40,6 +40,9 @@
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.pnlSanPham.SuspendLayout();
             this.pnlMenu.SuspendLayout();
             this.pnlLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -47,6 +50,7 @@
             // 
             // pnlSanPham
             // 
+            this.pnlSanPham.Controls.Add(this.button8);
             this.pnlSanPham.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSanPham.Location = new System.Drawing.Point(240, 0);
             this.pnlSanPham.Name = "pnlSanPham";
@@ -56,6 +60,7 @@
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(53)))), ((int)(((byte)(71)))));
+            this.pnlMenu.Controls.Add(this.button6);
             this.pnlMenu.Controls.Add(this.button7);
             this.pnlMenu.Controls.Add(this.button5);
             this.pnlMenu.Controls.Add(this.button4);
@@ -136,6 +141,7 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -203,6 +209,25 @@
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(8, 208);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(264, 308);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -212,6 +237,7 @@
             this.Controls.Add(this.pnlMenu);
             this.Name = "Main";
             this.Text = "Main";
+            this.pnlSanPham.ResumeLayout(false);
             this.pnlMenu.ResumeLayout(false);
             this.pnlLogo.ResumeLayout(false);
             this.pnlLogo.PerformLayout();
@@ -233,5 +259,7 @@
         private System.Windows.Forms.Panel pnlLogo;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button6;
     }
 }
