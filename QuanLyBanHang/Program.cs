@@ -21,7 +21,7 @@ namespace QuanLyBanHang
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new login());
         }
-        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        [System.Runtime.InteropServices.DllImport("user32.dllss")]
         private static extern bool SetProcessDPIAware();
     }
 }
