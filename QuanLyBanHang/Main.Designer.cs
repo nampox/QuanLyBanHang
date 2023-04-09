@@ -1,4 +1,6 @@
-﻿namespace QuanLyBanHang
+﻿using System.Drawing;
+
+namespace QuanLyBanHang
 {
     partial class Main
     {
@@ -50,7 +52,7 @@
             this.pnlSanPham.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSanPham.Location = new System.Drawing.Point(240, 0);
             this.pnlSanPham.Name = "pnlSanPham";
-            this.pnlSanPham.Size = new System.Drawing.Size(560, 450);
+            this.pnlSanPham.Size = new System.Drawing.Size(1016, 631);
             this.pnlSanPham.TabIndex = 3;
             // 
             // pnlMenu
@@ -66,7 +68,7 @@
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(240, 450);
+            this.pnlMenu.Size = new System.Drawing.Size(240, 631);
             this.pnlMenu.TabIndex = 2;
             // 
             // button7
@@ -77,7 +79,7 @@
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 390);
+            this.button7.Location = new System.Drawing.Point(0, 571);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(240, 60);
             this.button7.TabIndex = 7;
@@ -88,7 +90,6 @@
             // 
             // button5
             // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.White;
@@ -102,6 +103,7 @@
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -136,6 +138,7 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -207,7 +210,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1256, 631);
             this.Controls.Add(this.pnlSanPham);
             this.Controls.Add(this.pnlMenu);
             this.Name = "Main";
@@ -225,7 +228,6 @@
         private System.Windows.Forms.Panel pnlSanPham;
         private System.Windows.Forms.Panel pnlMenu;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
@@ -233,5 +235,6 @@
         private System.Windows.Forms.Panel pnlLogo;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button5;
     }
 }

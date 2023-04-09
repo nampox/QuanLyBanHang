@@ -102,6 +102,7 @@ namespace QuanLyBanHang
                 textBox2.Focus();
                 return;
             }
+
             Main  f = new Main();
             f.Show();
             this.Hide();

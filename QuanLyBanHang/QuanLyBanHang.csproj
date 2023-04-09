@@ -109,11 +109,15 @@
     <Content Include="img\directory-submission-symbol.png" />
     <Content Include="img\download.png" />
     <Content Include="img\ico.ico" />
+    <Content Include="img\KhoHang.png" />
     <Content Include="img\login.png" />
+    <Content Include="img\logout.png" />
     <Content Include="img\online-shopping.png" />
     <Content Include="img\password.png" />
+    <Content Include="img\phanloai.png" />
     <Content Include="img\printer.png" />
     <Content Include="img\them.png" />
+    <Content Include="img\thongke.png" />
     <Content Include="img\timkiem.png" />
     <Content Include="QuanLyBanHang.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
