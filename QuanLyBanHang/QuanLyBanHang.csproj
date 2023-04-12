@@ -108,6 +108,7 @@
     <Content Include="img\cancel.png" />
     <Content Include="img\directory-submission-symbol.png" />
     <Content Include="img\download.png" />
+    <Content Include="img\home.png" />
     <Content Include="img\ico.ico" />
     <Content Include="img\KhoHang.png" />
     <Content Include="img\login.png" />
@@ -119,6 +120,7 @@
     <Content Include="img\them.png" />
     <Content Include="img\thongke.png" />
     <Content Include="img\timkiem.png" />
+    <Content Include="img\user.png" />
     <Content Include="QuanLyBanHang.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -140,4 +142,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
 </Project>

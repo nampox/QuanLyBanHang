@@ -1,0 +1,14 @@
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\bin\Release\QuanLyBanHang.mdf
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\bin\Release\QuanLyBanHang_log.ldf
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\bin\Release\QuanLyBanHang.exe.config
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\bin\Release\QuanLyBanHang.exe
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\bin\Release\QuanLyBanHang.pdb
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.csproj.AssemblyReference.cache
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.csproj.SuggestedBindingRedirects.cache
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.login.resources
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.Main.resources
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.Properties.Resources.resources
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.csproj.GenerateResource.cache
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.csproj.CoreCompileInputs.cache
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.exe
+D:\file\code\Winform\QuanLyBanHang\QuanLyBanHang\obj\Release\QuanLyBanHang.pdb

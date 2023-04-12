@@ -51,8 +51,9 @@ namespace QuanLyBanHang
             // 
             this.pnlSanPham.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSanPham.Location = new System.Drawing.Point(240, 0);
+            this.pnlSanPham.MinimumSize = new System.Drawing.Size(1030, 613);
             this.pnlSanPham.Name = "pnlSanPham";
-            this.pnlSanPham.Size = new System.Drawing.Size(1016, 631);
+            this.pnlSanPham.Size = new System.Drawing.Size(1030, 613);
             this.pnlSanPham.TabIndex = 3;
             // 
             // pnlMenu
@@ -68,7 +69,7 @@ namespace QuanLyBanHang
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(240, 631);
+            this.pnlMenu.Size = new System.Drawing.Size(240, 613);
             this.pnlMenu.TabIndex = 2;
             // 
             // button7
@@ -79,7 +80,7 @@ namespace QuanLyBanHang
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 571);
+            this.button7.Location = new System.Drawing.Point(0, 553);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(240, 60);
             this.button7.TabIndex = 7;
@@ -210,7 +211,7 @@ namespace QuanLyBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1256, 631);
+            this.ClientSize = new System.Drawing.Size(1270, 613);
             this.Controls.Add(this.pnlSanPham);
             this.Controls.Add(this.pnlMenu);
             this.Name = "Main";
